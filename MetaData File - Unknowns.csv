@@ -1,0 +1,46 @@
+StructuralClass,CompoundName,Bottlenose,Sample,RetentionTimes,AxisMax,Comment
+MMCP unknown,MMCP unknown 1,FALSE,25,"1089.72 , 0.931",350,
+MMCP unknown,MMCP unknown 2,FALSE,17,"1128.2 , 0.898",300,
+MMCP unknown,MMCP unknown 3,FALSE,3,"1215.65 , 1.016",350,
+MMCP unknown,MMCP unknown 4,FALSE,9,"1530.47 , 1.168",500,
+MMCP unknown,MMCP unknown 5,FALSE,3,"1684.38 , 1.459",500,
+MMCP unknown,MMCP unknown 6,FALSE,7,"1701.87 , 1.525",450,
+MMCP unknown,MMCP unknown 7,FALSE,10,"2023.69 , 1.927",400,
+MMCP unknown,MMCP unknown 8,FALSE,6,"2212.58 , 2.581",300,
+MMCP unknown,MMCP unknown-6 related 1,FALSE,15,"1596.93 , 1.452",500,
+MMCP unknown,MMCP unknown-52 related 1,FALSE,17,"1789.32 , 1.610",400,
+Unknown,Unknown-11,TRUE,20,"1114.21 , 0.904",250,
+Unknown,Unknown-14,TRUE,17,"1247.13 , 0.970",350,
+Unknown,Unknown-15,TRUE,21,"1278.61 , 0.937",450,
+Unknown,Unknown-16,TRUE,15,"1296.1 , 0.977",400,Interference with some compounds - ion 355 belongs to unknown-16
+Unknown,Unknown-17,TRUE,20,"1296.1 , 0.917",400,
+Unknown,Unknown-19,TRUE,21,"1376.56 , 0.990",450,PCB interference
+Unknown,Unknown-21,TRUE,6,"1450.01 , 1.069",400,
+Unknown,Unknown-22,TRUE,11,"1446.52 , 1.063",400,
+Unknown,Unknown-34,TRUE,16,"1530.47 , 1.195",500,
+Unknown,Unknown-36,TRUE,3,"1554.95 , 1.300",400,
+Unknown,Unknown-38,TRUE,2,"1561.95 , 1.274",600,
+Unknown,Unknown-39,TRUE,16,"1554.95 , 1.267",400,
+Unknown,Unknown-44,TRUE,10,"1624.91 , 1.518",600,
+Unknown-3,Unknown-3-1,TRUE,17,"1240.13 , 1.010",450,
+Unknown-3,Unknown-3-3,TRUE,20,"1411.54 , 1.142",500,
+Unknown-4,Unknown-4-2,TRUE,10,"1495.49 , 1.056",450,PCB interference - ions 412 and 340 belong to unknown-4-2
+Unknown-4,Unknown-4-3,TRUE,7,"1415.03 , 0.997",400,
+Unknown-4,Unknown-4-5,TRUE,15,"1450.01 , 1.069",450,
+Unknown-4,Unknown-4-7,TRUE,8,"1488.49 , 1.056",450,
+Unknown-4,Unknown-4-8,TRUE,20,"1429.03 , 1.036",450,PCB interference
+Unknown-4,Unknown-4-10,TRUE,8,"1495.49 , 1.036",500,PCB interference - ions 410 and 340  belong to unknown-4-10
+Unknown-4,Unknown-4-11,TRUE,7,"1509.48 , 1.036",450,PCB interference - ions 412 and 340 belong to unknown-4-11
+Unknown-4,Unknown-4-12,TRUE,2,"1547.96 , 1.129",450,"Interference from other compounds, ion 412 belongs to unknown-4-12"
+Unknown-4,Unknown-4-13,TRUE,6,"1568.95 , 1.228",450,
+Unknown-4,Unknown-4-14,TRUE,17,"1593.43 , 1.287",500,PCB interference - ions 446 and 374 belong to unknown-4-14
+Unknown-4,Unknown-4-16,TRUE,20,"1617.92 , 1.353",450,PCB interference - ions 446 and 374 belong to unknown-4-16
+Unknown-4,Unknown-4-17,TRUE,6,"1712.36 , 1.426",550,PCB interference - ions 408 and 480 belong to unknown-4-17
+Unknown-5,Unknown-5-1,TRUE,3,"1460.51 , 1.089",500,
+Unknown-5,Unknown-5-2,TRUE,20,"1467.5 , 1.267",500,
+Unknown-6,Unknown-6-1,TRUE,6,"1582.94 , 1.373",600,
+Unknown-6,Unknown-6-2,TRUE,6,"1600.43 , 1.445",450,
+Unknown-7,Unknown-7-1,TRUE,6,"1649.4 , 1.538",450,
+Unknown-7,Unknown-7-2,TRUE,6,"1705.37 , 1.690",450,
+Unknown-8,Unknown-8-1,TRUE,2,"1663.39 , 1.637",450,
+Unknown-8,Unknown-8-2,TRUE,2,"1691.38 , 1.591",400,
