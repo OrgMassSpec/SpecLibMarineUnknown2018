@@ -68,7 +68,7 @@ LibraryReport <- function(spectra = spec,
       grid.lines(x = unit(c(0,1), "npc"), y = unit(c(0,0), "npc"))
     popViewport()
     pushViewport(viewport(layout.pos.row = 2))
-      grid.text("Halogenated Unknown Mass Spectra in Marine Mammal Blubber from the \nSouthern California Bight.\nManuscript: Non-targeted analyses of multiple marine mammal species to enable proactive \norganic contaminant screening and selection of best indicator species", y = 0.5, gp = gpar(cex = 1.5))
+      grid.text("Halogenated Unknown Mass Spectra in Marine Mammal Blubber from the \nSouthern California Bight\nManuscript: Apex marine predators and ocean health: proactive screening of \nhalogenated organic contaminants reveal ecosystem indicator species", y = 0.5, gp = gpar(cex = 1.5))
     popViewport()
     pushViewport(viewport(layout.pos.row = 3))
       grid.text("Authors: Jennifer M. Cossaboon, Eunha Hoh, Susan J. Chivers, David W. Weller,\nKerri Danil, Keith A. Maruya, and Nathan G. Dodder", y = 0.9, gp = gpar(cex = 1.25))
