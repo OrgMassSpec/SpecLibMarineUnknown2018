@@ -1,6 +1,3 @@
-# Library for Brazil Dolphins
-# Prints only the reference spectra
-
 library(OrgMassSpecR)
 rm(list = ls())
 
@@ -12,7 +9,6 @@ meta <- read.csv("MetaData File - Unknowns.csv", stringsAsFactors = FALSE)
 DrawSpectrum <- function(s, xMin = 40, xMax) {
 
   s$percentIntensity <- with(s, intensity / max(intensity) * 100)
-
   plotData <-s[s$mz >= xMin & s$mz <= xMax, ]
 
   pushViewport(plotViewport(c(3.75, 3.5, 1.5, 1)))
@@ -28,7 +24,6 @@ DrawSpectrum <- function(s, xMin = 40, xMax) {
         rep(0, length(plotData$intensity)),
         default.units = "native", 
         gp = gpar(lwd = 0.75))
-
       grid.text("intensity (%)", x = unit(-3.2, "lines"), rot = 90)
       grid.text("m/z", y = unit(-2.5, "lines"))
       # Automatic display of values every 25 units
@@ -68,11 +63,11 @@ LibraryReport <- function(spectra = spec,
       grid.lines(x = unit(c(0,1), "npc"), y = unit(c(0,0), "npc"))
     popViewport()
     pushViewport(viewport(layout.pos.row = 2))
-      grid.text("Halogenated Unknown Mass Spectra in Marine Mammal Blubber from the \nSouthern California Bight\nManuscript: Apex marine predators and ocean health: proactive screening of \nhalogenated organic contaminants reveal ecosystem indicator species", y = 0.5, gp = gpar(cex = 1.5))
+      grid.text("Halogenated Unknown Mass Spectra in Marine Mammal Blubber from the\nSouthern California Bight.\nManuscript: Apex marine predators and ocean health: proactive screening of\nhalogenated organic contaminants reveals ecosystem indicator species", y = 0.5, gp = gpar(cex = 1.5))
     popViewport()
     pushViewport(viewport(layout.pos.row = 3))
       grid.text("Authors: Jennifer M. Cossaboon, Eunha Hoh, Susan J. Chivers, David W. Weller,\nKerri Danil, Keith A. Maruya, and Nathan G. Dodder", y = 0.9, gp = gpar(cex = 1.25))
-      grid.text("Uses compound naming scheme from Environ. Sci. Technol. 2015, 49, 1328−1338.\n(Compounds starting with MMCP are unique to this project.)", y = 0.6, gp = gpar(cex = 1.25))
+      grid.text("Uses compound naming scheme from Environ. Sci. Technol. 2015, 49, 1328-1338.\n(Compounds starting with MMCP are unique to this project.)", y = 0.6, gp = gpar(cex = 1.25))
       grid.text("Web Reference: http://OrgMassSpec.github.io", y = 0.3, gp = gpar(cex = 1.25))
     popViewport()
     pushViewport(viewport(layout.pos.row = 4))
